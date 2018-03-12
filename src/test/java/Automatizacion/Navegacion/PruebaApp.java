@@ -15,6 +15,7 @@ import javax.swing.JOptionPane;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.sikuli.script.Region;
@@ -30,8 +31,8 @@ public class PruebaApp {
 
 	DesiredCapabilities capabilities;
 
-	public PruebaApp() {//throws MalformedURLException {
-		// System.setProperty("webdriver.chrome.driver","/Users/moviltest/Downloads/chromedriver");
+	public PruebaApp() throws MalformedURLException {
+		System.setProperty("webdriver.chrome.driver","/Users/moviltest/Downloads/chromedriver");
 
 //		listaCic = new ArrayList<CicActual>();
 
@@ -46,6 +47,9 @@ public class PruebaApp {
 //		capabilities.setCapability("recreateChromeDriverSessions", true);
 //
 //		driver = new RemoteWebDriver(new URL("http://192.168.0.11:4444/wd/hub"), capabilities);
+		
+		
+		driver = new ChromeDriver();
 
 	}
 
