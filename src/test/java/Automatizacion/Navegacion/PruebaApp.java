@@ -19,6 +19,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.sikuli.script.Region;
+import org.testng.annotations.Test;
 import org.sikuli.script.Finder;
 import org.sikuli.script.Image;
 import org.sikuli.script.Pattern;
@@ -53,6 +54,7 @@ public class PruebaApp {
 
 	}
 
+	@Test
 	public void prueba1() {
 		
 		

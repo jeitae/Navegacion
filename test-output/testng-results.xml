@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4885" started-at="2018-03-01T22:40:05Z" finished-at="2018-03-01T22:40:10Z">
+  <suite name="Default suite" duration-ms="2408" started-at="2018-03-12T06:23:49Z" finished-at="2018-03-12T06:23:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4885" started-at="2018-03-01T22:40:05Z" finished-at="2018-03-01T22:40:10Z">
-      <class name="Automatizacion.Navegacion.Prueba1">
-        <test-method status="PASS" signature="levantarPagina()[pri:0, instance:Automatizacion.Navegacion.Prueba1@2eae8e6e]" name="levantarPagina" duration-ms="4865" started-at="2018-03-01T16:40:05Z" finished-at="2018-03-01T16:40:10Z">
+    <test name="Default test" duration-ms="2408" started-at="2018-03-12T06:23:49Z" finished-at="2018-03-12T06:23:51Z">
+      <class name="Automatizacion.Navegacion.PruebaApp">
+        <test-method status="PASS" signature="prueba1()[pri:0, instance:Automatizacion.Navegacion.PruebaApp@2d52216b]" name="prueba1" duration-ms="2379" started-at="2018-03-12T06:23:49Z" finished-at="2018-03-12T06:23:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- levantarPagina -->
-      </class> <!-- Automatizacion.Navegacion.Prueba1 -->
+        </test-method> <!-- prueba1 -->
+      </class> <!-- Automatizacion.Navegacion.PruebaApp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

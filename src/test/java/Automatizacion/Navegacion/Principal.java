@@ -34,7 +34,7 @@ public class Principal {
 	
 		//pra.leerCaptcha();
 		
-		pra.prueba1();		
+		//pra.prueba1();		
 		
 	}
 	
