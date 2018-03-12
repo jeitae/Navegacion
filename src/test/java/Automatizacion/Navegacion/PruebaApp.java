@@ -58,7 +58,7 @@ public class PruebaApp {
 	public void prueba1() {
 		
 		
-		driver.get("https://www.google.com");
+		driver.get("https://www.facebook.com");
 		
 		driver.close();
 		driver.quit();
