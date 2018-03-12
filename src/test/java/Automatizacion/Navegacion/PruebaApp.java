@@ -55,7 +55,7 @@ public class PruebaApp {
 	}
 
 	@Test
-	public void prueba1() {
+	public void prueba() {
 		
 		
 		driver.get("https://www.facebook.com");
