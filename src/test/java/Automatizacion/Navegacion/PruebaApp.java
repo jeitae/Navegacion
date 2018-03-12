@@ -53,6 +53,18 @@ public class PruebaApp {
 
 	}
 
+	public void prueba1() {
+		
+		
+		driver.get("https://www.google.com");
+		
+		driver.close();
+		driver.quit();
+		
+		
+	}
+	
+	
 	public void iniciarSesion() {
 
 		try {

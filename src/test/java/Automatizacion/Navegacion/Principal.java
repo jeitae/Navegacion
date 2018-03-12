@@ -32,9 +32,9 @@ public class Principal {
 //		
 //	}
 	
-		pra.leerCaptcha();
+		//pra.leerCaptcha();
 		
-		
+		pra.prueba1();		
 		
 	}
 	
